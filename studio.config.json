@@ -1,27 +1,35 @@
 {
-  "packages": {
-   "dir": "",
-   "menu": [
+ "packages": {
+  "dir": "",
+  "menu": [
+   [
+    "TOKENS",
     [
-     "TOKENS",
-     [
-      "color",
-      "tokens"
-     ]
-    ],
+     "color",
+     "tokens",
+     "color",
+     "colors"
+    ]
+   ],
+   [
+    "COMPONENTS",
     [
-     "COMPONENTS",
-     [
-      "button"
-     ]
-    ],
+     "button"
+    ]
+   ],
+   [
+    "INFRASTRUCTURE",
     [
-     "INFRASTRUCTURE",
-     [
-      "doc-layout",
-      "sd-input"
-     ]
+     "doc-layout",
+     "sd-input"
     ]
    ]
-  }
+  ]
+ },
+ "dependencies": {
+  "autoInstall": false
+ },
+ "doc": {
+  "markdownEngine": "mdjs"
  }
+}
